@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440297D62337CFB700BBB591 /* 140.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297C52337CFB500BBB591 /* 140.mp3 */; };
+		440297D72337CFB700BBB591 /* 100.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297C62337CFB500BBB591 /* 100.mp3 */; };
+		440297D82337CFB700BBB591 /* 60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297C72337CFB500BBB591 /* 60.mp3 */; };
+		440297D92337CFB700BBB591 /* 200.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297C82337CFB600BBB591 /* 200.mp3 */; };
+		440297DA2337CFB700BBB591 /* 220.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297C92337CFB600BBB591 /* 220.mp3 */; };
+		440297DB2337CFB700BBB591 /* 170.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297CA2337CFB600BBB591 /* 170.mp3 */; };
+		440297DC2337CFB700BBB591 /* 130.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297CB2337CFB600BBB591 /* 130.mp3 */; };
+		440297DD2337CFB700BBB591 /* 70.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297CC2337CFB600BBB591 /* 70.mp3 */; };
+		440297DE2337CFB700BBB591 /* 90.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297CD2337CFB600BBB591 /* 90.mp3 */; };
+		440297DF2337CFB700BBB591 /* 180.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297CE2337CFB600BBB591 /* 180.mp3 */; };
+		440297E02337CFB700BBB591 /* 190.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297CF2337CFB600BBB591 /* 190.mp3 */; };
+		440297E12337CFB700BBB591 /* 80.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297D02337CFB600BBB591 /* 80.mp3 */; };
+		440297E22337CFB700BBB591 /* 120.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297D12337CFB600BBB591 /* 120.mp3 */; };
+		440297E32337CFB700BBB591 /* 160.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297D22337CFB700BBB591 /* 160.mp3 */; };
+		440297E52337CFB700BBB591 /* 150.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297D42337CFB700BBB591 /* 150.mp3 */; };
+		440297E62337CFB700BBB591 /* 210.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297D52337CFB700BBB591 /* 210.mp3 */; };
+		440297EC2337D10700BBB591 /* 110.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440297EB2337D10600BBB591 /* 110.mp3 */; };
+		440EA0932336987600DD4F9D /* dingdong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440EA0922336987600DD4F9D /* dingdong.mp3 */; };
+		4442D6F1233BE56200556388 /* 115.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4442D6F0233BE56200556388 /* 115.mp3 */; };
+		4442D6F3233BE57600556388 /* 125.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4442D6F2233BE57600556388 /* 125.mp3 */; };
+		4442D6F5233BE58200556388 /* 135.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4442D6F4233BE58200556388 /* 135.mp3 */; };
+		448E941B22FD840C00598CCE /* AgePickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E941A22FD840C00598CCE /* AgePickerInterfaceController.swift */; };
+		448E941D22FE968600598CCE /* UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E941C22FE968600598CCE /* UserContext.swift */; };
+		44929ADC22F4BD9A0083099E /* WorkoutInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44929ADB22F4BD9A0083099E /* WorkoutInterfaceController.swift */; };
+		44A3EA3722D987A500257741 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A3EA3622D987A500257741 /* HealthKit.framework */; };
+		44D135BA22FCA5920079BADF /* CommonPickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D135B922FCA5920079BADF /* CommonPickerInterfaceController.swift */; };
+		44F8F398233BE3D3008ADC25 /* 165.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F8F391233BE3D3008ADC25 /* 165.mp3 */; };
+		44F8F39A233BE3D3008ADC25 /* 175.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F8F393233BE3D3008ADC25 /* 175.mp3 */; };
+		44F8F39D233BE3D3008ADC25 /* 155.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F8F396233BE3D3008ADC25 /* 155.mp3 */; };
+		44F8F39E233BE3D3008ADC25 /* 145.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F8F397233BE3D3008ADC25 /* 145.mp3 */; };
+		44FB163722D9778C008C467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB163622D9778C008C467E /* AppDelegate.swift */; };
+		44FB163922D9778C008C467E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB163822D9778C008C467E /* ViewController.swift */; };
+		44FB163C22D9778C008C467E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FB163A22D9778C008C467E /* Main.storyboard */; };
+		44FB163E22D9778F008C467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FB163D22D9778F008C467E /* Assets.xcassets */; };
+		44FB164122D9778F008C467E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FB163F22D9778F008C467E /* LaunchScreen.storyboard */; };
+		44FB164622D9778F008C467E /* ezHIIT WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 44FB164522D9778F008C467E /* ezHIIT WatchKit App.app */; };
+		44FB164E22D97790008C467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FB164D22D97790008C467E /* Assets.xcassets */; };
+		44FB165522D97790008C467E /* ezHIIT WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 44FB165422D97790008C467E /* ezHIIT WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44FB165A22D97790008C467E /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB165922D97790008C467E /* MainInterfaceController.swift */; };
+		44FB165C22D97790008C467E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB165B22D97790008C467E /* ExtensionDelegate.swift */; };
+		44FB165E22D97790008C467E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB165D22D97790008C467E /* NotificationController.swift */; };
+		44FB166022D97790008C467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FB165F22D97790008C467E /* Assets.xcassets */; };
+		44FB167222D97F78008C467E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB167122D97F78008C467E /* HealthKit.framework */; };
+		44FB717623099C5E000EA18C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FB164A22D9778F008C467E /* Interface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44FB164722D9778F008C467E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44FB162B22D9778C008C467E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44FB164422D9778F008C467E;
+			remoteInfo = "HIIT WatchKit App";
+		};
+		44FB165622D97790008C467E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44FB162B22D9778C008C467E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44FB165322D97790008C467E;
+			remoteInfo = "HIIT WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44FB166822D97790008C467E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				44FB165522D97790008C467E /* ezHIIT WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FB166C22D97790008C467E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				44FB164622D9778F008C467E /* ezHIIT WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		440297C52337CFB500BBB591 /* 140.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 140.mp3; sourceTree = "<group>"; };
+		440297C62337CFB500BBB591 /* 100.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100.mp3; sourceTree = "<group>"; };
+		440297C72337CFB500BBB591 /* 60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 60.mp3; sourceTree = "<group>"; };
+		440297C82337CFB600BBB591 /* 200.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 200.mp3; sourceTree = "<group>"; };
+		440297C92337CFB600BBB591 /* 220.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 220.mp3; sourceTree = "<group>"; };
+		440297CA2337CFB600BBB591 /* 170.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 170.mp3; sourceTree = "<group>"; };
+		440297CB2337CFB600BBB591 /* 130.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 130.mp3; sourceTree = "<group>"; };
+		440297CC2337CFB600BBB591 /* 70.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 70.mp3; sourceTree = "<group>"; };
+		440297CD2337CFB600BBB591 /* 90.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 90.mp3; sourceTree = "<group>"; };
+		440297CE2337CFB600BBB591 /* 180.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 180.mp3; sourceTree = "<group>"; };
+		440297CF2337CFB600BBB591 /* 190.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 190.mp3; sourceTree = "<group>"; };
+		440297D02337CFB600BBB591 /* 80.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 80.mp3; sourceTree = "<group>"; };
+		440297D12337CFB600BBB591 /* 120.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120.mp3; sourceTree = "<group>"; };
+		440297D22337CFB700BBB591 /* 160.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 160.mp3; sourceTree = "<group>"; };
+		440297D42337CFB700BBB591 /* 150.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 150.mp3; sourceTree = "<group>"; };
+		440297D52337CFB700BBB591 /* 210.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 210.mp3; sourceTree = "<group>"; };
+		440297EB2337D10600BBB591 /* 110.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 110.mp3; sourceTree = "<group>"; };
+		440EA0922336987600DD4F9D /* dingdong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dingdong.mp3; sourceTree = "<group>"; };
+		4412FCE82335186C00004C34 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		4442D6F0233BE56200556388 /* 115.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 115.mp3; sourceTree = "<group>"; };
+		4442D6F2233BE57600556388 /* 125.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 125.mp3; sourceTree = "<group>"; };
+		4442D6F4233BE58200556388 /* 135.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 135.mp3; sourceTree = "<group>"; };
+		448E941A22FD840C00598CCE /* AgePickerInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgePickerInterfaceController.swift; sourceTree = "<group>"; };
+		448E941C22FE968600598CCE /* UserContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContext.swift; sourceTree = "<group>"; };
+		44929ADB22F4BD9A0083099E /* WorkoutInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutInterfaceController.swift; sourceTree = "<group>"; };
+		44A3EA3622D987A500257741 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		44A3EA3822D987A500257741 /* HIIT WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HIIT WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		44D135B922FCA5920079BADF /* CommonPickerInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPickerInterfaceController.swift; sourceTree = "<group>"; };
+		44F8F391233BE3D3008ADC25 /* 165.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 165.mp3; sourceTree = "<group>"; };
+		44F8F393233BE3D3008ADC25 /* 175.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 175.mp3; sourceTree = "<group>"; };
+		44F8F396233BE3D3008ADC25 /* 155.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 155.mp3; sourceTree = "<group>"; };
+		44F8F397233BE3D3008ADC25 /* 145.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 145.mp3; sourceTree = "<group>"; };
+		44FB163322D9778C008C467E /* ezHIIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezHIIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FB163622D9778C008C467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44FB163822D9778C008C467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44FB163B22D9778C008C467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44FB163D22D9778F008C467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44FB164022D9778F008C467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44FB164222D9778F008C467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FB164522D9778F008C467E /* ezHIIT WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ezHIIT WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FB164B22D9778F008C467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		44FB164D22D97790008C467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44FB164F22D97790008C467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FB165422D97790008C467E /* ezHIIT WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ezHIIT WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FB165922D97790008C467E /* MainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
+		44FB165B22D97790008C467E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		44FB165D22D97790008C467E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		44FB165F22D97790008C467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44FB166122D97790008C467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FB166222D97790008C467E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		44FB167122D97F78008C467E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		44FB167322D97F78008C467E /* HIIT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HIIT.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FB163022D9778C008C467E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB167222D97F78008C467E /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FB165122D97790008C467E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A3EA3722D987A500257741 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44FB162A22D9778C008C467E = {
+			isa = PBXGroup;
+			children = (
+				4442D6F4233BE58200556388 /* 135.mp3 */,
+				4442D6F2233BE57600556388 /* 125.mp3 */,
+				4442D6F0233BE56200556388 /* 115.mp3 */,
+				44F8F397233BE3D3008ADC25 /* 145.mp3 */,
+				44F8F396233BE3D3008ADC25 /* 155.mp3 */,
+				44F8F391233BE3D3008ADC25 /* 165.mp3 */,
+				44F8F393233BE3D3008ADC25 /* 175.mp3 */,
+				440297EB2337D10600BBB591 /* 110.mp3 */,
+				440297C72337CFB500BBB591 /* 60.mp3 */,
+				440297CC2337CFB600BBB591 /* 70.mp3 */,
+				440297D02337CFB600BBB591 /* 80.mp3 */,
+				440297CD2337CFB600BBB591 /* 90.mp3 */,
+				440297C62337CFB500BBB591 /* 100.mp3 */,
+				440297D12337CFB600BBB591 /* 120.mp3 */,
+				440297CB2337CFB600BBB591 /* 130.mp3 */,
+				440297C52337CFB500BBB591 /* 140.mp3 */,
+				440297D42337CFB700BBB591 /* 150.mp3 */,
+				440297D22337CFB700BBB591 /* 160.mp3 */,
+				440297CA2337CFB600BBB591 /* 170.mp3 */,
+				440297CE2337CFB600BBB591 /* 180.mp3 */,
+				440297CF2337CFB600BBB591 /* 190.mp3 */,
+				440297C82337CFB600BBB591 /* 200.mp3 */,
+				440297D52337CFB700BBB591 /* 210.mp3 */,
+				440297C92337CFB600BBB591 /* 220.mp3 */,
+				440EA0922336987600DD4F9D /* dingdong.mp3 */,
+				4412FCE82335186C00004C34 /* bell.mp3 */,
+				44FB163522D9778C008C467E /* HIIT */,
+				44FB164922D9778F008C467E /* HIIT WatchKit App */,
+				44FB165822D97790008C467E /* HIIT WatchKit Extension */,
+				44FB163422D9778C008C467E /* Products */,
+				44FB167022D97F78008C467E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44FB163422D9778C008C467E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FB163322D9778C008C467E /* ezHIIT.app */,
+				44FB164522D9778F008C467E /* ezHIIT WatchKit App.app */,
+				44FB165422D97790008C467E /* ezHIIT WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FB163522D9778C008C467E /* HIIT */ = {
+			isa = PBXGroup;
+			children = (
+				44FB167322D97F78008C467E /* HIIT.entitlements */,
+				44FB163622D9778C008C467E /* AppDelegate.swift */,
+				44FB163822D9778C008C467E /* ViewController.swift */,
+				44FB163A22D9778C008C467E /* Main.storyboard */,
+				44FB163D22D9778F008C467E /* Assets.xcassets */,
+				44FB163F22D9778F008C467E /* LaunchScreen.storyboard */,
+				44FB164222D9778F008C467E /* Info.plist */,
+			);
+			path = HIIT;
+			sourceTree = "<group>";
+		};
+		44FB164922D9778F008C467E /* HIIT WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				44FB164A22D9778F008C467E /* Interface.storyboard */,
+				44FB164D22D97790008C467E /* Assets.xcassets */,
+				44FB164F22D97790008C467E /* Info.plist */,
+			);
+			path = "HIIT WatchKit App";
+			sourceTree = "<group>";
+		};
+		44FB165822D97790008C467E /* HIIT WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44A3EA3822D987A500257741 /* HIIT WatchKit Extension.entitlements */,
+				44FB165922D97790008C467E /* MainInterfaceController.swift */,
+				44FB165B22D97790008C467E /* ExtensionDelegate.swift */,
+				44FB165D22D97790008C467E /* NotificationController.swift */,
+				44FB165F22D97790008C467E /* Assets.xcassets */,
+				44FB166122D97790008C467E /* Info.plist */,
+				44FB166222D97790008C467E /* PushNotificationPayload.apns */,
+				44929ADB22F4BD9A0083099E /* WorkoutInterfaceController.swift */,
+				44D135B922FCA5920079BADF /* CommonPickerInterfaceController.swift */,
+				448E941A22FD840C00598CCE /* AgePickerInterfaceController.swift */,
+				448E941C22FE968600598CCE /* UserContext.swift */,
+			);
+			path = "HIIT WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		44FB167022D97F78008C467E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A3EA3622D987A500257741 /* HealthKit.framework */,
+				44FB167122D97F78008C467E /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44FB163222D9778C008C467E /* ezHIIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FB166D22D97790008C467E /* Build configuration list for PBXNativeTarget "ezHIIT" */;
+			buildPhases = (
+				44FB162F22D9778C008C467E /* Sources */,
+				44FB163022D9778C008C467E /* Frameworks */,
+				44FB163122D9778C008C467E /* Resources */,
+				44FB166C22D97790008C467E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44FB164822D9778F008C467E /* PBXTargetDependency */,
+			);
+			name = ezHIIT;
+			productName = HIIT;
+			productReference = 44FB163322D9778C008C467E /* ezHIIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44FB164422D9778F008C467E /* ezHIIT WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FB166922D97790008C467E /* Build configuration list for PBXNativeTarget "ezHIIT WatchKit App" */;
+			buildPhases = (
+				44FB164322D9778F008C467E /* Resources */,
+				44FB166822D97790008C467E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44FB165722D97790008C467E /* PBXTargetDependency */,
+			);
+			name = "ezHIIT WatchKit App";
+			productName = "HIIT WatchKit App";
+			productReference = 44FB164522D9778F008C467E /* ezHIIT WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		44FB165322D97790008C467E /* ezHIIT WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FB166522D97790008C467E /* Build configuration list for PBXNativeTarget "ezHIIT WatchKit Extension" */;
+			buildPhases = (
+				44FB165022D97790008C467E /* Sources */,
+				44FB165122D97790008C467E /* Frameworks */,
+				44FB165222D97790008C467E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ezHIIT WatchKit Extension";
+			productName = "HIIT WatchKit Extension";
+			productReference = 44FB165422D97790008C467E /* ezHIIT WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44FB162B22D9778C008C467E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = activesoft.app;
+				TargetAttributes = {
+					44FB163222D9778C008C467E = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					44FB164422D9778F008C467E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					44FB165322D97790008C467E = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 44FB162E22D9778C008C467E /* Build configuration list for PBXProject "ezHIIT" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44FB162A22D9778C008C467E;
+			productRefGroup = 44FB163422D9778C008C467E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44FB163222D9778C008C467E /* ezHIIT */,
+				44FB164422D9778F008C467E /* ezHIIT WatchKit App */,
+				44FB165322D97790008C467E /* ezHIIT WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44FB163122D9778C008C467E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB164122D9778F008C467E /* LaunchScreen.storyboard in Resources */,
+				44FB163E22D9778F008C467E /* Assets.xcassets in Resources */,
+				44FB163C22D9778C008C467E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FB164322D9778F008C467E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB717623099C5E000EA18C /* Interface.storyboard in Resources */,
+				44FB164E22D97790008C467E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FB165222D97790008C467E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F8F398233BE3D3008ADC25 /* 165.mp3 in Resources */,
+				44F8F39A233BE3D3008ADC25 /* 175.mp3 in Resources */,
+				44F8F39D233BE3D3008ADC25 /* 155.mp3 in Resources */,
+				44F8F39E233BE3D3008ADC25 /* 145.mp3 in Resources */,
+				4442D6F1233BE56200556388 /* 115.mp3 in Resources */,
+				4442D6F3233BE57600556388 /* 125.mp3 in Resources */,
+				4442D6F5233BE58200556388 /* 135.mp3 in Resources */,
+				44FB166022D97790008C467E /* Assets.xcassets in Resources */,
+				440EA0932336987600DD4F9D /* dingdong.mp3 in Resources */,
+				440297D62337CFB700BBB591 /* 140.mp3 in Resources */,
+				440297D72337CFB700BBB591 /* 100.mp3 in Resources */,
+				440297D82337CFB700BBB591 /* 60.mp3 in Resources */,
+				440297D92337CFB700BBB591 /* 200.mp3 in Resources */,
+				440297DA2337CFB700BBB591 /* 220.mp3 in Resources */,
+				440297DB2337CFB700BBB591 /* 170.mp3 in Resources */,
+				440297DC2337CFB700BBB591 /* 130.mp3 in Resources */,
+				440297DD2337CFB700BBB591 /* 70.mp3 in Resources */,
+				440297DE2337CFB700BBB591 /* 90.mp3 in Resources */,
+				440297DF2337CFB700BBB591 /* 180.mp3 in Resources */,
+				440297E02337CFB700BBB591 /* 190.mp3 in Resources */,
+				440297E12337CFB700BBB591 /* 80.mp3 in Resources */,
+				440297E22337CFB700BBB591 /* 120.mp3 in Resources */,
+				440297E32337CFB700BBB591 /* 160.mp3 in Resources */,
+				440297E52337CFB700BBB591 /* 150.mp3 in Resources */,
+				440297E62337CFB700BBB591 /* 210.mp3 in Resources */,
+				440297EC2337D10700BBB591 /* 110.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44FB162F22D9778C008C467E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB163922D9778C008C467E /* ViewController.swift in Sources */,
+				44FB163722D9778C008C467E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FB165022D97790008C467E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448E941D22FE968600598CCE /* UserContext.swift in Sources */,
+				448E941B22FD840C00598CCE /* AgePickerInterfaceController.swift in Sources */,
+				44FB165E22D97790008C467E /* NotificationController.swift in Sources */,
+				44FB165C22D97790008C467E /* ExtensionDelegate.swift in Sources */,
+				44929ADC22F4BD9A0083099E /* WorkoutInterfaceController.swift in Sources */,
+				44D135BA22FCA5920079BADF /* CommonPickerInterfaceController.swift in Sources */,
+				44FB165A22D97790008C467E /* MainInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44FB164822D9778F008C467E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44FB164422D9778F008C467E /* ezHIIT WatchKit App */;
+			targetProxy = 44FB164722D9778F008C467E /* PBXContainerItemProxy */;
+		};
+		44FB165722D97790008C467E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44FB165322D97790008C467E /* ezHIIT WatchKit Extension */;
+			targetProxy = 44FB165622D97790008C467E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44FB163A22D9778C008C467E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FB163B22D9778C008C467E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44FB163F22D9778F008C467E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FB164022D9778F008C467E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		44FB164A22D9778F008C467E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FB164B22D9778F008C467E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44FB166322D97790008C467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44FB166422D97790008C467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44FB166622D97790008C467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HIIT WatchKit Extension/HIIT WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZJ856QU3E;
+				INFOPLIST_FILE = "HIIT WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.activesoft.ezHIIT.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		44FB166722D97790008C467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HIIT WatchKit Extension/HIIT WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZJ856QU3E;
+				INFOPLIST_FILE = "HIIT WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.activesoft.ezHIIT.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		44FB166A22D97790008C467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZJ856QU3E;
+				IBSC_MODULE = HIIT_WatchKit_Extension;
+				INFOPLIST_FILE = "HIIT WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = app.activesoft.ezHIIT.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		44FB166B22D97790008C467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZJ856QU3E;
+				IBSC_MODULE = HIIT_WatchKit_Extension;
+				INFOPLIST_FILE = "HIIT WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = app.activesoft.ezHIIT.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		44FB166E22D97790008C467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HIIT/HIIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = FZJ856QU3E;
+				INFOPLIST_FILE = HIIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = app.activesoft.ezHIIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		44FB166F22D97790008C467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HIIT/HIIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = FZJ856QU3E;
+				INFOPLIST_FILE = HIIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.activesoft.ezHIIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FB162E22D9778C008C467E /* Build configuration list for PBXProject "ezHIIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB166322D97790008C467E /* Debug */,
+				44FB166422D97790008C467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FB166522D97790008C467E /* Build configuration list for PBXNativeTarget "ezHIIT WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB166622D97790008C467E /* Debug */,
+				44FB166722D97790008C467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FB166922D97790008C467E /* Build configuration list for PBXNativeTarget "ezHIIT WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB166A22D97790008C467E /* Debug */,
+				44FB166B22D97790008C467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FB166D22D97790008C467E /* Build configuration list for PBXNativeTarget "ezHIIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB166E22D97790008C467E /* Debug */,
+				44FB166F22D97790008C467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44FB162B22D9778C008C467E /* Project object */;
+}

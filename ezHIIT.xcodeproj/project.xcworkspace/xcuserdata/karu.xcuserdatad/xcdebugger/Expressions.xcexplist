@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "WorkoutInterfaceController.endWorkout():WorkoutInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "session.state">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkoutInterfaceController.readOut(currentHeartRate:):WorkoutInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "intBpm">
+            </PersistentString>
+            <PersistentString
+               value = "lastValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkoutInterfaceController.readOutHeartRateIfNecessary(currentHeartRate:):WorkoutInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lastAnnounce">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
